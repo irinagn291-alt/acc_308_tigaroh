@@ -1,4 +1,4 @@
-<!-- gf-brief source=9de4ddc2eee2ea9928c5776d312ad1d249d7bdc0554da0e41af55a32de31f5e6 written=2026-10-06T20:23:50+03:00 -->
+<!-- gf-brief source=9de4ddc2eee2ea9928c5776d312ad1d249d7bdc0554da0e41af55a32de31f5e6 written=2026-10-06T20:27:15+03:00 -->
 # Tigaroh
 ## What it is
 Tigaroh is a daily trivia ticket. Each calendar day it deals one question from the decks you turned on. You stake a single choice, seal it, then read why the answer is what it is and file a card on your streak. It is for people who want one honest question a day and a deliberate commit, not an endless quiz.
