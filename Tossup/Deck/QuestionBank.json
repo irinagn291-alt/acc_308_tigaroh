@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "decks": [
+    {
+      "id": "world",
+      "title": "World",
+      "drops": [
+        {
+          "id": "world-nile",
+          "stem": "Which river is the longest in Africa?",
+          "difficulty": 2,
+          "why": "The Nile runs north through northeastern Africa to the Mediterranean.",
+          "correctChoiceID": "world-nile-b",
+          "choices": [
+            {"id": "world-nile-a", "line": "Amazon"},
+            {"id": "world-nile-b", "line": "Nile"},
+            {"id": "world-nile-c", "line": "Congo"},
+            {"id": "world-nile-d", "line": "Niger"}
+          ]
+        },
+        {
+          "id": "world-tokyo",
+          "stem": "Which city is the capital of Japan?",
+          "difficulty": 1,
+          "why": "Tokyo has been the capital since the late nineteenth century.",
+          "correctChoiceID": "world-tokyo-a",
+          "choices": [
+            {"id": "world-tokyo-a", "line": "Tokyo"},
+            {"id": "world-tokyo-b", "line": "Osaka"},
+            {"id": "world-tokyo-c", "line": "Kyoto"},
+            {"id": "world-tokyo-d", "line": "Sapporo"}
+          ]
+        },
+        {
+          "id": "world-andes",
+          "stem": "The Andes run along which continent?",
+          "difficulty": 2,
+          "why": "The Andes follow the western edge of South America.",
+          "correctChoiceID": "world-andes-c",
+          "choices": [
+            {"id": "world-andes-a", "line": "Europe"},
+            {"id": "world-andes-b", "line": "Africa"},
+            {"id": "world-andes-c", "line": "South America"},
+            {"id": "world-andes-d", "line": "Australia"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "title": "Science",
+      "drops": [
+        {
+          "id": "science-h2o",
+          "stem": "What is the chemical symbol for water?",
+          "difficulty": 1,
+          "why": "Water is two hydrogen atoms bonded to one oxygen atom.",
+          "correctChoiceID": "science-h2o-b",
+          "choices": [
+            {"id": "science-h2o-a", "line": "CO2"},
+            {"id": "science-h2o-b", "line": "H2O"},
+            {"id": "science-h2o-c", "line": "NaCl"},
+            {"id": "science-h2o-d", "line": "O2"}
+          ]
+        },
+        {
+          "id": "science-mars",
+          "stem": "Which planet is called the Red Planet?",
+          "difficulty": 1,
+          "why": "Iron oxide on the surface gives Mars its red color.",
+          "correctChoiceID": "science-mars-d",
+          "choices": [
+            {"id": "science-mars-a", "line": "Venus"},
+            {"id": "science-mars-b", "line": "Jupiter"},
+            {"id": "science-mars-c", "line": "Mercury"},
+            {"id": "science-mars-d", "line": "Mars"}
+          ]
+        },
+        {
+          "id": "science-light",
+          "stem": "About how fast does light travel in a vacuum?",
+          "difficulty": 3,
+          "why": "Light in a vacuum moves at about 300,000 kilometres per second.",
+          "correctChoiceID": "science-light-a",
+          "choices": [
+            {"id": "science-light-a", "line": "300,000 km/s"},
+            {"id": "science-light-b", "line": "300 km/s"},
+            {"id": "science-light-c", "line": "3,000 km/s"},
+            {"id": "science-light-d", "line": "30 km/s"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arts",
+      "title": "Arts",
+      "drops": [
+        {
+          "id": "arts-mona",
+          "stem": "Who painted the Mona Lisa?",
+          "difficulty": 1,
+          "why": "Leonardo da Vinci painted it in the early sixteenth century.",
+          "correctChoiceID": "arts-mona-c",
+          "choices": [
+            {"id": "arts-mona-a", "line": "Michelangelo"},
+            {"id": "arts-mona-b", "line": "Raphael"},
+            {"id": "arts-mona-c", "line": "Leonardo da Vinci"},
+            {"id": "arts-mona-d", "line": "Donatello"}
+          ]
+        },
+        {
+          "id": "arts-symphony",
+          "stem": "How many symphonies did Beethoven complete?",
+          "difficulty": 3,
+          "why": "Beethoven completed nine symphonies.",
+          "correctChoiceID": "arts-symphony-b",
+          "choices": [
+            {"id": "arts-symphony-a", "line": "Seven"},
+            {"id": "arts-symphony-b", "line": "Nine"},
+            {"id": "arts-symphony-c", "line": "Twelve"},
+            {"id": "arts-symphony-d", "line": "Four"}
+          ]
+        },
+        {
+          "id": "arts-hamlet",
+          "stem": "Who wrote Hamlet?",
+          "difficulty": 2,
+          "why": "William Shakespeare wrote Hamlet around 1600.",
+          "correctChoiceID": "arts-hamlet-a",
+          "choices": [
+            {"id": "arts-hamlet-a", "line": "William Shakespeare"},
+            {"id": "arts-hamlet-b", "line": "Christopher Marlowe"},
+            {"id": "arts-hamlet-c", "line": "Ben Jonson"},
+            {"id": "arts-hamlet-d", "line": "John Milton"}
+          ]
+        }
+      ]
+    }
+  ]
+}

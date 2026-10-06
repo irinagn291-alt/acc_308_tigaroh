@@ -1,0 +1,1 @@
+trivia,diário,bilhete,pergunta,aposta,selar,retirar,série,registo,dados,troféus,educação,quiz,escudo

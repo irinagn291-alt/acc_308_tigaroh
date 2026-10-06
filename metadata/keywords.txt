@@ -1,0 +1,1 @@
+trivia,daily,ticket,question,stake,seal,peel,streak,journal,stats,trophies,education,quiz,shield

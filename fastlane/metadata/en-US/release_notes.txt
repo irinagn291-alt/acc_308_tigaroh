@@ -1,0 +1,16 @@
+Initial release of Tigaroh, a daily trivia ticket. Each calendar day it deals one question from the decks you turned on. You stake a single choice, seal it, then read why the answer is what it is and file a card on your streak.
+
+• One ticket a day: one question, four choices
+• Stake a Choice before you see the answer
+• Peel to change the stake, only before Seal
+• Seal freezes the pick and files the Card
+• Why line after the card is filed (Card filed or Miss)
+• Difficulty, Streak, and Shields on today's ticket
+• A correct seal adds difficulty plus the streak, capped at 10
+• A miss clears the run unless you Spend shield on a miss
+• A shield is granted on every seventh correct day
+• Journal of Filed cards
+• Stats TIMELINE of streak length and daily points
+• Trophies MARKS: First card, Three day run, Shield filed, Double digits, All decks on
+• Themed decks World, Science, Arts
+• Replay intro, Reset chart, and Contact

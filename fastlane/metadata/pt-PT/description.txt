@@ -1,0 +1,20 @@
+O Tigaroh é um bilhete diário de trivia. Em cada dia do calendário, distribui uma pergunta dos baralhos que ligou. Aposta uma única escolha, sela-a e depois lê porque é que a resposta é essa e arquiva uma ficha na sequência. É para quem quer uma pergunta honesta por dia e um compromisso deliberado, não um quiz sem fim.
+
+• Um bilhete por dia: uma pergunta, quatro escolhas
+• Aposte uma Escolha antes de ver a resposta
+• Retire para mudar a aposta, só antes de Selar
+• Selar congela a escolha e arquiva a Ficha
+• Linha do porquê depois de a ficha ser arquivada (Ficha arquivada ou Erro)
+• Dificuldade, Sequência e Escudos no bilhete de hoje
+• Um selo correto soma a dificuldade mais a sequência, com um máximo de 10
+• Um erro limpa a sequência, a menos que Gaste escudo num erro
+• Um escudo é atribuído a cada sétimo dia correto
+• Diário de Fichas arquivadas (Acerto / Erro, pontos, resposta apostada, dia)
+• Estatísticas CRONOLOGIA do comprimento da sequência e dos pontos diários (A linha de tinta é a sequência. A linha vermelha é a dos pontos.)
+• Troféus MARCAS: Primeira ficha, Sequência de três dias, Escudo arquivado, Dois algarismos, Todos os baralhos ligados
+• Baralhos temáticos Mundo, Ciência, Artes
+• Repetir introdução
+• Repor gráfico
+• Contacto
+
+Uma nova pergunta chega no dia seguinte do calendário. O trabalho inacabado é retomado. Os dados ficam neste dispositivo.

@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B9688FBBE6F03692353C759 /* ChoiceRail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D86C608BD823FA718E8EE3 /* ChoiceRail.swift */; };
+		103FB58DECF70DE632894EF6 /* StakeMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A8B4442A5210FBC092D360 /* StakeMark.swift */; };
+		156AA3F58113CFD341E6ED43 /* TicketRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4152C2D90F3F053D0D7DFE72 /* TicketRoot.swift */; };
+		20783611959E9C883549E0D1 /* SealMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B7B271C8328EA59B033ED8 /* SealMark.swift */; };
+		293884D7FEA11F7BC73BF617 /* QuestionBank.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D0410C7B132FA44F4A8AC15 /* QuestionBank.json */; };
+		2D219CCB77B3546148BD01F5 /* TicketFold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0276635D8DE190FA7DEC6F8D /* TicketFold.swift */; };
+		324C7E231D695E20375FFD4D /* TicketLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB41340ECC4A4BB09D15DA3 /* TicketLook.swift */; };
+		3C95902F18A3A6521C9A47AB /* StatsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177090A3EFC50448B76D07A1 /* StatsSheet.swift */; };
+		477B49D80553A1592E70F9DF /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9DB8AE899C3236833F45C5 /* Deck.swift */; };
+		5396582E9057B2FCC96C8E66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759EDFA4BDD0D9898B72E017 /* ContentView.swift */; };
+		551B27DFAA2B349908A39F91 /* TodayTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDAC75D29D3C5FC42A8346B /* TodayTicket.swift */; };
+		5A4D26B639793EEBC2D957BB /* StreakStrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE55249D6083EA97C017B25 /* StreakStrip.swift */; };
+		645D8DF2A1A53160C3278E8B /* SettingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5563A1784E1198C51631E8CF /* SettingsSheet.swift */; };
+		6EE2BBC71F72CBA1B189D972 /* Streak.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61FEC628A5BDA76222867EE /* Streak.swift */; };
+		72A23F880AF58111B006099E /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8005AF7C26482E385D5348E1 /* APIConfig.swift */; };
+		734EE6907D1BE3D1DCCEAC20 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526C9C8442F15DFA9384E57E /* Onboarding.swift */; };
+		77D83466A79B8F050B913B6E /* TrophiesSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D764CBC089CC1F8EBDD81BF /* TrophiesSheet.swift */; };
+		7CA2C77C1DDCDC5835C1BBD9 /* EarlyMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E34C68807223039F057865 /* EarlyMark.swift */; };
+		7CBEE257FE839E4C093D3BE5 /* ReviewLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80889E0F1A56EC7D597D7DF2 /* ReviewLaunch.swift */; };
+		7DFB89784331393757857755 /* Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1BA74FD236204FD6B41A21 /* Drop.swift */; };
+		7E243B664C6369221F0602EE /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A881108FA8139CEFC46A43FF /* Alamofire */; };
+		84602D823BD3577ECB120B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1DB428A0531BA1269C09FF1 /* Assets.xcassets */; };
+		92D88E1B174174FFCE6DDC29 /* JournalSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6E260F35266084095E044 /* JournalSheet.swift */; };
+		95E3F24CBF851779C2BAB208 /* WaverMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53641B01C2854D400CE41224 /* WaverMark.swift */; };
+		9F10FD2DDA84E08A5294C64B /* TicketSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = E989176028E4B45A0920F569 /* TicketSession.swift */; };
+		AB82CBB267B65CE62CE6615B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E911BF5CACAF3F032A69B80E /* AppDelegate.swift */; };
+		C01B66A6A6EB0931857C32C5 /* TossupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE6D5BC7AF2495AD2C8FC51 /* TossupTests.swift */; };
+		C96441E851735ECB22E1E118 /* TossupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3816C6B4A89E044D4B5051 /* TossupApp.swift */; };
+		CF1EEDCDD047FC15C718EA8A /* ShieldMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19D55CF41C86CF47A2954FB /* ShieldMark.swift */; };
+		D8A07E64C0DDBD5491B8EA7C /* AdmissionBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CB7E1E8A434EFC1C3D4179 /* AdmissionBoard.swift */; };
+		E25CE4AE08F72E77103D7311 /* TicketChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462571358D6159702503CA8D /* TicketChart.swift */; };
+		E40B4AEE88D0456CBD6900AB /* Choice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5EF2F2ACDEADD5F4AE3F81 /* Choice.swift */; };
+		E88D9D4C49D531F8E0ECCEB6 /* GatePages.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6C6489D2EBC67E505FE14B /* GatePages.swift */; };
+		EA12C4A21A792245AEC293BB /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A982944C8EB7C174C4A3EC /* Card.swift */; };
+		EE34A19DA47573B4427CFD9C /* TimelineSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A403C961ACDABD0A69D9107 /* TimelineSeries.swift */; };
+		F921A7BF7B970A78282D33C5 /* MissMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F3E585D7129B46135EBE15 /* MissMark.swift */; };
+		FA2C7A10387CBEA93CE3D0A3 /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02781C276EBD798D5B2497C /* DesignTokens.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA5F767D03F3F8B92AD26DA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B627FBEE61AC6783F393E984 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E14115C87999807C1B0502A;
+			remoteInfo = Tossup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0276635D8DE190FA7DEC6F8D /* TicketFold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketFold.swift; sourceTree = "<group>"; };
+		0D764CBC089CC1F8EBDD81BF /* TrophiesSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrophiesSheet.swift; sourceTree = "<group>"; };
+		0D9DB8AE899C3236833F45C5 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		177090A3EFC50448B76D07A1 /* StatsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsSheet.swift; sourceTree = "<group>"; };
+		1CE6D5BC7AF2495AD2C8FC51 /* TossupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TossupTests.swift; sourceTree = "<group>"; };
+		2CE55249D6083EA97C017B25 /* StreakStrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakStrip.swift; sourceTree = "<group>"; };
+		3D0410C7B132FA44F4A8AC15 /* QuestionBank.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = QuestionBank.json; sourceTree = "<group>"; };
+		4152C2D90F3F053D0D7DFE72 /* TicketRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketRoot.swift; sourceTree = "<group>"; };
+		462571358D6159702503CA8D /* TicketChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketChart.swift; sourceTree = "<group>"; };
+		4E1BA74FD236204FD6B41A21 /* Drop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drop.swift; sourceTree = "<group>"; };
+		526C9C8442F15DFA9384E57E /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		53641B01C2854D400CE41224 /* WaverMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaverMark.swift; sourceTree = "<group>"; };
+		5563A1784E1198C51631E8CF /* SettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSheet.swift; sourceTree = "<group>"; };
+		5A403C961ACDABD0A69D9107 /* TimelineSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineSeries.swift; sourceTree = "<group>"; };
+		5C3816C6B4A89E044D4B5051 /* TossupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TossupApp.swift; sourceTree = "<group>"; };
+		759EDFA4BDD0D9898B72E017 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		78F3E585D7129B46135EBE15 /* MissMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissMark.swift; sourceTree = "<group>"; };
+		79A982944C8EB7C174C4A3EC /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		7DDAC75D29D3C5FC42A8346B /* TodayTicket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayTicket.swift; sourceTree = "<group>"; };
+		8005AF7C26482E385D5348E1 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		80889E0F1A56EC7D597D7DF2 /* ReviewLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewLaunch.swift; sourceTree = "<group>"; };
+		9289A85430A72F0B9311F814 /* Tossup.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Tossup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96E34C68807223039F057865 /* EarlyMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlyMark.swift; sourceTree = "<group>"; };
+		AEB6E260F35266084095E044 /* JournalSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalSheet.swift; sourceTree = "<group>"; };
+		B19D55CF41C86CF47A2954FB /* ShieldMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShieldMark.swift; sourceTree = "<group>"; };
+		B8D86C608BD823FA718E8EE3 /* ChoiceRail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceRail.swift; sourceTree = "<group>"; };
+		C02781C276EBD798D5B2497C /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
+		C61FEC628A5BDA76222867EE /* Streak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Streak.swift; sourceTree = "<group>"; };
+		CD6C6489D2EBC67E505FE14B /* GatePages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatePages.swift; sourceTree = "<group>"; };
+		D1DB428A0531BA1269C09FF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA5EF2F2ACDEADD5F4AE3F81 /* Choice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Choice.swift; sourceTree = "<group>"; };
+		DFB41340ECC4A4BB09D15DA3 /* TicketLook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketLook.swift; sourceTree = "<group>"; };
+		E009CFFD0A9A8BA18657FE9E /* TossupTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = TossupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8CB7E1E8A434EFC1C3D4179 /* AdmissionBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdmissionBoard.swift; sourceTree = "<group>"; };
+		E911BF5CACAF3F032A69B80E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E989176028E4B45A0920F569 /* TicketSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketSession.swift; sourceTree = "<group>"; };
+		F1A8B4442A5210FBC092D360 /* StakeMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StakeMark.swift; sourceTree = "<group>"; };
+		F1B7B271C8328EA59B033ED8 /* SealMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SealMark.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0100FE4E7D9D74437F3B2D7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E243B664C6369221F0602EE /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		087EC04E959D5EA1831DE0E7 /* StakeMark */ = {
+			isa = PBXGroup;
+			children = (
+				F1A8B4442A5210FBC092D360 /* StakeMark.swift */,
+			);
+			path = StakeMark;
+			sourceTree = "<group>";
+		};
+		17D032350BE4349AA28CEA03 /* Tossup */ = {
+			isa = PBXGroup;
+			children = (
+				8005AF7C26482E385D5348E1 /* APIConfig.swift */,
+				E911BF5CACAF3F032A69B80E /* AppDelegate.swift */,
+				D1DB428A0531BA1269C09FF1 /* Assets.xcassets */,
+				759EDFA4BDD0D9898B72E017 /* ContentView.swift */,
+				C02781C276EBD798D5B2497C /* DesignTokens.swift */,
+				80889E0F1A56EC7D597D7DF2 /* ReviewLaunch.swift */,
+				DFB41340ECC4A4BB09D15DA3 /* TicketLook.swift */,
+				5C3816C6B4A89E044D4B5051 /* TossupApp.swift */,
+				476768EB404E32E025170609 /* Card */,
+				834E91368E36661BFB50A658 /* Choice */,
+				9FF9BFE8D19BC76993C98EA1 /* Deck */,
+				DC044FFCCD5DD39B2321B767 /* Drop */,
+				2F40928757784EE2A94E9B63 /* EarlyMark */,
+				D8F01DB445C96E943D12937A /* MissMark */,
+				ADABEBA6F51F95553C46DD9C /* SealMark */,
+				6B2C1248224E5871E8CA13D8 /* ShieldMark */,
+				087EC04E959D5EA1831DE0E7 /* StakeMark */,
+				A069EA8CEB024696F000FC8E /* Streak */,
+				D8D71BEE5450820CD38A5B01 /* WaverMark */,
+			);
+			path = Tossup;
+			sourceTree = "<group>";
+		};
+		2F40928757784EE2A94E9B63 /* EarlyMark */ = {
+			isa = PBXGroup;
+			children = (
+				96E34C68807223039F057865 /* EarlyMark.swift */,
+			);
+			path = EarlyMark;
+			sourceTree = "<group>";
+		};
+		332D530AFE57C03B055C4B60 = {
+			isa = PBXGroup;
+			children = (
+				17D032350BE4349AA28CEA03 /* Tossup */,
+				8BB3E4E11D01E3DC387C5C1B /* TossupTests */,
+				C86293A116851FDCAFE30201 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		476768EB404E32E025170609 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				79A982944C8EB7C174C4A3EC /* Card.swift */,
+				AEB6E260F35266084095E044 /* JournalSheet.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		6B2C1248224E5871E8CA13D8 /* ShieldMark */ = {
+			isa = PBXGroup;
+			children = (
+				B19D55CF41C86CF47A2954FB /* ShieldMark.swift */,
+			);
+			path = ShieldMark;
+			sourceTree = "<group>";
+		};
+		834E91368E36661BFB50A658 /* Choice */ = {
+			isa = PBXGroup;
+			children = (
+				DA5EF2F2ACDEADD5F4AE3F81 /* Choice.swift */,
+				B8D86C608BD823FA718E8EE3 /* ChoiceRail.swift */,
+			);
+			path = Choice;
+			sourceTree = "<group>";
+		};
+		8BB3E4E11D01E3DC387C5C1B /* TossupTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CE6D5BC7AF2495AD2C8FC51 /* TossupTests.swift */,
+			);
+			path = TossupTests;
+			sourceTree = "<group>";
+		};
+		9FF9BFE8D19BC76993C98EA1 /* Deck */ = {
+			isa = PBXGroup;
+			children = (
+				0D9DB8AE899C3236833F45C5 /* Deck.swift */,
+				3D0410C7B132FA44F4A8AC15 /* QuestionBank.json */,
+				5563A1784E1198C51631E8CF /* SettingsSheet.swift */,
+			);
+			path = Deck;
+			sourceTree = "<group>";
+		};
+		A069EA8CEB024696F000FC8E /* Streak */ = {
+			isa = PBXGroup;
+			children = (
+				177090A3EFC50448B76D07A1 /* StatsSheet.swift */,
+				C61FEC628A5BDA76222867EE /* Streak.swift */,
+				2CE55249D6083EA97C017B25 /* StreakStrip.swift */,
+				5A403C961ACDABD0A69D9107 /* TimelineSeries.swift */,
+				0D764CBC089CC1F8EBDD81BF /* TrophiesSheet.swift */,
+			);
+			path = Streak;
+			sourceTree = "<group>";
+		};
+		ADABEBA6F51F95553C46DD9C /* SealMark */ = {
+			isa = PBXGroup;
+			children = (
+				F1B7B271C8328EA59B033ED8 /* SealMark.swift */,
+			);
+			path = SealMark;
+			sourceTree = "<group>";
+		};
+		C86293A116851FDCAFE30201 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9289A85430A72F0B9311F814 /* Tossup.app */,
+				E009CFFD0A9A8BA18657FE9E /* TossupTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8D71BEE5450820CD38A5B01 /* WaverMark */ = {
+			isa = PBXGroup;
+			children = (
+				53641B01C2854D400CE41224 /* WaverMark.swift */,
+			);
+			path = WaverMark;
+			sourceTree = "<group>";
+		};
+		D8F01DB445C96E943D12937A /* MissMark */ = {
+			isa = PBXGroup;
+			children = (
+				78F3E585D7129B46135EBE15 /* MissMark.swift */,
+			);
+			path = MissMark;
+			sourceTree = "<group>";
+		};
+		DC044FFCCD5DD39B2321B767 /* Drop */ = {
+			isa = PBXGroup;
+			children = (
+				E8CB7E1E8A434EFC1C3D4179 /* AdmissionBoard.swift */,
+				4E1BA74FD236204FD6B41A21 /* Drop.swift */,
+				CD6C6489D2EBC67E505FE14B /* GatePages.swift */,
+				526C9C8442F15DFA9384E57E /* Onboarding.swift */,
+				462571358D6159702503CA8D /* TicketChart.swift */,
+				0276635D8DE190FA7DEC6F8D /* TicketFold.swift */,
+				4152C2D90F3F053D0D7DFE72 /* TicketRoot.swift */,
+				E989176028E4B45A0920F569 /* TicketSession.swift */,
+				7DDAC75D29D3C5FC42A8346B /* TodayTicket.swift */,
+			);
+			path = Drop;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E14115C87999807C1B0502A /* Tossup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CD5E67E838C8853482C2B21 /* Build configuration list for PBXNativeTarget "Tossup" */;
+			buildPhases = (
+				240A6A305597FA1FDB2A1F83 /* Sources */,
+				FB50D3C536E3F6EE75268231 /* Resources */,
+				0100FE4E7D9D74437F3B2D7B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tossup;
+			packageProductDependencies = (
+				A881108FA8139CEFC46A43FF /* Alamofire */,
+			);
+			productName = Tossup;
+			productReference = 9289A85430A72F0B9311F814 /* Tossup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EADACAB246D6DFECD7794B9 /* TossupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6197FA0DE74509C7C463F84F /* Build configuration list for PBXNativeTarget "TossupTests" */;
+			buildPhases = (
+				93DFF9BD12014E2FA5713A82 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B38284FACBA9834218CB393C /* PBXTargetDependency */,
+			);
+			name = TossupTests;
+			packageProductDependencies = (
+			);
+			productName = TossupTests;
+			productReference = E009CFFD0A9A8BA18657FE9E /* TossupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B627FBEE61AC6783F393E984 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3E14115C87999807C1B0502A = {
+						ProvisioningStyle = Automatic;
+					};
+					3EADACAB246D6DFECD7794B9 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3DF2DC698A6238A2066493D9 /* Build configuration list for PBXProject "Tossup" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 332D530AFE57C03B055C4B60;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3CBBD19E7C7A197967735DDF /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C86293A116851FDCAFE30201 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E14115C87999807C1B0502A /* Tossup */,
+				3EADACAB246D6DFECD7794B9 /* TossupTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB50D3C536E3F6EE75268231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84602D823BD3577ECB120B11 /* Assets.xcassets in Resources */,
+				293884D7FEA11F7BC73BF617 /* QuestionBank.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		240A6A305597FA1FDB2A1F83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A23F880AF58111B006099E /* APIConfig.swift in Sources */,
+				D8A07E64C0DDBD5491B8EA7C /* AdmissionBoard.swift in Sources */,
+				AB82CBB267B65CE62CE6615B /* AppDelegate.swift in Sources */,
+				EA12C4A21A792245AEC293BB /* Card.swift in Sources */,
+				E40B4AEE88D0456CBD6900AB /* Choice.swift in Sources */,
+				0B9688FBBE6F03692353C759 /* ChoiceRail.swift in Sources */,
+				5396582E9057B2FCC96C8E66 /* ContentView.swift in Sources */,
+				477B49D80553A1592E70F9DF /* Deck.swift in Sources */,
+				FA2C7A10387CBEA93CE3D0A3 /* DesignTokens.swift in Sources */,
+				7DFB89784331393757857755 /* Drop.swift in Sources */,
+				7CA2C77C1DDCDC5835C1BBD9 /* EarlyMark.swift in Sources */,
+				E88D9D4C49D531F8E0ECCEB6 /* GatePages.swift in Sources */,
+				92D88E1B174174FFCE6DDC29 /* JournalSheet.swift in Sources */,
+				F921A7BF7B970A78282D33C5 /* MissMark.swift in Sources */,
+				734EE6907D1BE3D1DCCEAC20 /* Onboarding.swift in Sources */,
+				7CBEE257FE839E4C093D3BE5 /* ReviewLaunch.swift in Sources */,
+				20783611959E9C883549E0D1 /* SealMark.swift in Sources */,
+				645D8DF2A1A53160C3278E8B /* SettingsSheet.swift in Sources */,
+				CF1EEDCDD047FC15C718EA8A /* ShieldMark.swift in Sources */,
+				103FB58DECF70DE632894EF6 /* StakeMark.swift in Sources */,
+				3C95902F18A3A6521C9A47AB /* StatsSheet.swift in Sources */,
+				6EE2BBC71F72CBA1B189D972 /* Streak.swift in Sources */,
+				5A4D26B639793EEBC2D957BB /* StreakStrip.swift in Sources */,
+				E25CE4AE08F72E77103D7311 /* TicketChart.swift in Sources */,
+				2D219CCB77B3546148BD01F5 /* TicketFold.swift in Sources */,
+				324C7E231D695E20375FFD4D /* TicketLook.swift in Sources */,
+				156AA3F58113CFD341E6ED43 /* TicketRoot.swift in Sources */,
+				9F10FD2DDA84E08A5294C64B /* TicketSession.swift in Sources */,
+				EE34A19DA47573B4427CFD9C /* TimelineSeries.swift in Sources */,
+				551B27DFAA2B349908A39F91 /* TodayTicket.swift in Sources */,
+				C96441E851735ECB22E1E118 /* TossupApp.swift in Sources */,
+				77D83466A79B8F050B913B6E /* TrophiesSheet.swift in Sources */,
+				95E3F24CBF851779C2BAB208 /* WaverMark.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DFF9BD12014E2FA5713A82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01B66A6A6EB0931857C32C5 /* TossupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B38284FACBA9834218CB393C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E14115C87999807C1B0502A /* Tossup */;
+			targetProxy = CA5F767D03F3F8B92AD26DA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		131A5275D5BC45991AFC8A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		49F63A7DF9E571079B11A5E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Tigaroh;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tossup.ticket;
+				PRODUCT_NAME = Tossup;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94491C329363637610B1BC8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tossup.ticket.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tossup.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tossup";
+			};
+			name = Debug;
+		};
+		F20D4B84FE28C57D80ABA209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		F3791DE81B9C63D2CAC1F2EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tossup.ticket.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tossup.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tossup";
+			};
+			name = Release;
+		};
+		F778B5E19AEF30C4DA8F5E9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Tigaroh;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tossup.ticket;
+				PRODUCT_NAME = Tossup;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DF2DC698A6238A2066493D9 /* Build configuration list for PBXProject "Tossup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131A5275D5BC45991AFC8A2C /* Debug */,
+				F20D4B84FE28C57D80ABA209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6197FA0DE74509C7C463F84F /* Build configuration list for PBXNativeTarget "TossupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94491C329363637610B1BC8A /* Debug */,
+				F3791DE81B9C63D2CAC1F2EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7CD5E67E838C8853482C2B21 /* Build configuration list for PBXNativeTarget "Tossup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F778B5E19AEF30C4DA8F5E9E /* Debug */,
+				49F63A7DF9E571079B11A5E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3CBBD19E7C7A197967735DDF /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rg8tv2gc29-tech/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 3ea8e93ec37a3ae5f255afb529ef20f438dd1903;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A881108FA8139CEFC46A43FF /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3CBBD19E7C7A197967735DDF /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B627FBEE61AC6783F393E984 /* Project object */;
+}

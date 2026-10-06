@@ -1,0 +1,21 @@
+The app requests no permissions. No permission prompt appears, and there is no usage-description string.
+
+There is no login, no in-app purchase, no user-generated content, no account deletion flow, and no App Tracking Transparency prompt.
+
+Tigaroh is a daily trivia ticket for people who want one honest question a day and a deliberate commit, not an endless quiz. Each calendar day it deals one question from the decks you turned on. You stake a single choice, seal it, then read why the answer is what it is and file a card on your streak.
+
+No credentials or demo account are needed. A cold launch on a device shows a system launch screen with no words, then a three-page intro. There is no tab bar. On the first page the headline is ONE TICKET. and the body is One question a day. Stake a single choice before you see the answer. Tap Next. On the second page the headline is SEAL IT. and the body is Seal freezes the stake. Peel only works before that seal. Tap Next. On the third page the headline is FILE THE CARD. and the body is A correct seal adds difficulty plus the streak, capped at 10. A miss clears the run unless you spend a shield. Three toggles, all on: World, Science, Arts. Tap Continue to open Today. Skip on any page also turns every deck on and opens Today. If every toggle is off, Continue still turns all three decks on.
+
+Today stays on screen with the title band TODAY. When a live ticket is ready the hero shows OPEN and Tap a pick to stake., the day's question, and Difficulty, Streak, and Shields. Four answer tiles sit under the question, each unused tile labelled Choice plus the answer text. With World, Science, and Arts on, the first question is Which river is the longest in Africa? with Amazon, Nile, Congo, and Niger. Tap a Choice tile to stake. Tapping Stake does not stake; it only sets the status to Pick a choice. After a stake the phase is STAKED with Seal freezes the pick. and Peel to change. Tap Seal to freeze the pick, score the day, and file the card. The answer stays hidden until this tap finishes. Peel is not shown after Seal. If at least one shield is ready, Spend shield on a miss. [n] ready. appears only while Staked. When the phase is SCORED the caption is Card filed., Filed is disabled, and a why plate appears with Card filed or Miss.
+
+Journal, Stats, Trophies, and Settings open as sheets. Each sheet has an X close control. Journal, Stats, and Trophies are empty until the first Seal. After a seal, Journal lists Correct or Miss, the point total, the staked answer text, and the day. Stats shows TIMELINE, Points, Cards, and Ink line is streak. Red line is points. Trophies shows MARKS: First card, Three day run, Shield filed, Double digits, and All decks on. Settings has DECKS toggles World, Science, and Arts, plus Replay intro, Reset chart, and Contact. Reset chart opens Reset the chart?; Cancel leaves everything as it is. A later launch that already finished the intro opens Today with the saved ticket. A stake you have not sealed comes back as Staked with Staked. Peel to change.
+
+Data stays on this device; Contact in Settings opens the support page.
+
+Behaviour does not differ by region. There is no country lock. Copy is English only. Counts and day labels follow the device locale.
+
+No licence or regulated-industry paperwork applies. The app is a personal daily trivia ticket with bundled questions, not a regulated service.
+
+The app is a personal log only and gives no recommendations.
+
+The app does not scan barcodes or QR codes.
